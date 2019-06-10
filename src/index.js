@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App.js';
+import App from './containers/App.js';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import {robots} from './robots';
 
 ReactDOM.render(
                 <div>
-                    <App robots={robots}/>
+                    <App />
                 </div>
     , document.getElementById('root'));
 
